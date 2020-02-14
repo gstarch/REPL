@@ -204,7 +204,7 @@ Refer to: https://developers.google.com/web/updates/2017/09/autoplay-policy-chan
 #### Audio resources not loading
 Some users have reported CORS-related problems when trying to launch the audio template provided. This could occur on the `file:///` protocol due to [Cross-Origin policy restrictions](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Ensure that you launch the `index.html` file from a local web server and not through a file explorer.
 
-Alternatively you can use the live preview functions of Brackets or the [Live Server extention](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode.
+Alternatively you can use the live preview functions of Brackets or the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode.
 
 These functions will automatically create a local server for testing and you can confirm this by checking that the address in your browser address starts with `localhost` or `http://` and not `file:///`
 
