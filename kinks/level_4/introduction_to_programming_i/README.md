@@ -69,15 +69,15 @@ You need to ensure that any function being declared does not have a space betwee
     function myFunc () // Grader might not accept this
 
 #### Variable assignment
-- Some cases ask to set the value of a variable to `mouseX` for instance and then make sure it doesn't go above or below a certain value with `min()` and `max()` functions. Answers can wrongly be accepted if you first set
+Some cases ask to set the value of a variable to `mouseX` for instance and then make sure it doesn't go above or below a certain value with `min()` and `max()` functions. Answers can wrongly be accepted if you first set
 
       variable = mouseX;
 
-  and then reassign it by applying a function that is missing a parameter:
+and then reassign it by applying a function that is missing a parameter:
 
       variable = max(X);
 
-  where `X` is an integer. The variable should be assign in one statement as follow instead:
+where `X` is an integer. The variable should be assign in one statement as follow instead:
 
       variable = max(mouseX, X);
 
@@ -179,7 +179,7 @@ _"They ask you to create an array of random integers between two values. The `ra
 _I incremented the upper value by one so it'd actually generate values between the two numbers requested, but the puzzle actually expects you to just naively slot the two values into random and not fix the bug."_ (reported by *Peter Houlihan*)
 
 #### 802, Stage 3
-Tip: When comparing cards, you can't simply compare objects against each other as the objects may be structured differently. Rather consider the properties of the different objects in the arrays and compare similar properties against one another.
+**Tip:** When comparing cards, you can't simply compare objects against each other as the objects may be structured differently. Rather consider the properties of the different objects in the arrays and compare similar properties against one another.
 
 #### 802, Stage 4
 - Take a good look at some form of documentation to understand how the JavaScript `splice()` function works. [MDN `Array.splice()` documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
